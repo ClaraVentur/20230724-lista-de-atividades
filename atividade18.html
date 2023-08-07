@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabuada até o 20</title>
+    <style> 
+    #azul
+    {
+        background-color: rgb(6, 6, 230);
+        color: white;
+        border-style: dashed;
+        border-color: white;
+        position: relative;
+        margin: left;
+        width: 100px;
+        height: 300px;
+        text-align: center;
+    }
+    #vermelho
+    {
+        background-color: crimson;
+        color: white;
+        border-style: dashed;
+        border-color: white;
+        position: relative;
+        margin: left;
+        width: 100px;
+        height: 300px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    
+    <script lang="JavaScript">
+        var i, j;
+
+        for(i = 1; i <= 5; i++)
+        {
+            if(i%2 == 0)
+            {
+                document.write("<table id='azul'>")
+            }
+            else
+            {
+                document.write("<table id='vermelho'>")
+            }
+                for(j = 1; j <= 10; j++)
+                {
+                    document.write("<tr><td>", i ,"x", j ," = ", (i*j),"</td></tr>")
+                }
+            document.write("<br><br>")
+            document.write("</table>")
+        }
+
+
+        for(i = 6; i <= 10; i++)
+        {
+            if(i%2 == 0)
+            {
+                document.write("<table id='azul'>")
+            }
+            else
+            {
+                document.write("<table id='vermelho'>")
+            }
+                for(j = 1; j <= 10; j++)
+                {
+                    document.write("<tr><td>", i ,"x", j ," = ", (i*j),"</td></tr>")
+                }
+            document.write("<br><br>")
+            document.write("</table>")
+        }
+        document.writeln()
+
+
+        for(i =11; i <= 15; i++)
+        {
+            if(i%2 == 0)
+            {
+                document.write("<table id='azul'>")
+            }
+            else
+            {
+                document.write("<table id='vermelho'>")
+            }
+                for(j = 1; j <= 10; j++)
+                {
+                    document.write("<tr><td>", i ,"x", j ," = ", (i*j),"</td></tr>")
+                }
+            document.write("<br><br>")
+            document.write("</table>")
+        }
+        document.writeln()
+        
+        
+        for(i = 16; i <= 20; i++)
+        {
+            if(i%2 == 0)
+            {
+                document.write("<table id='azul'>")
+            }
+            else
+            {
+                document.write("<table id='vermelho'>")
+            }
+                for(j = 1; j <= 10; j++)
+                {
+                    document.write("<tr><td>", i ,"x", j ," = ", (i*j),"</td></tr>")
+                }
+            document.write("<br><br>")
+            document.write("</table>")
+        }
+    </script>
+</body>
+</html>
